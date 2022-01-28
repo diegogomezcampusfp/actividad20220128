@@ -17,11 +17,11 @@
     //Setter
     echo $producto1->setPrecio(7.95);
     //Getter
-    echo $producto1->getId();
-    echo $producto1->getNombre();
-    echo $producto1->getUnidades();
-    echo $producto1->getPrecio();
-    echo "El total de la factura sería 39.75 con un iva de: ".$producto1->getFactura();
+    echo "<p>".$producto1->getId(). "</p>";
+    echo "<p>".$producto1->getNombre(). "</p>";
+    echo "<p>".$producto1->getUnidades(). "</p>";
+    echo "<p>".$producto1->getPrecio(). "</p>";
+    echo "<p>".$producto1->getFactura()."</p>";
 
 
     ?>
