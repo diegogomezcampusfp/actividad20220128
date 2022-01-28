@@ -13,7 +13,7 @@
 
     require('productos.php');
 
-    $producto1=new productos(100,"Camiseta",5,7.99, 8.3475);//instanciar
+    $producto1=new productos(100,"Camiseta",5,7.99, 0.21);//instanciar
     //Setter
     echo $producto1->setPrecio(7.95);
     //Getter
